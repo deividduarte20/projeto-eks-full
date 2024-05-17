@@ -4,4 +4,3 @@ module "eks_network" {
   project_name = var.project_name
   tags         = local.tags
 }
-
