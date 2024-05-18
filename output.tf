@@ -1,3 +1,3 @@
-output "subnet_public_1a" {
-  value = module.eks_network.subnet_public_1a
+output "oidc" {
+  value = module.eks_cluster.oidc
 }
