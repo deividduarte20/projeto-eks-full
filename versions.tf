@@ -13,9 +13,9 @@ terraform {
       version = "2.13.2"
     }
   }
-  backend "s3" {
-    bucket = "projeto-eks-s3"
-    key    = "dev/terrafrorm.tfstate"
-    region = "us-east-1"
-  }
+  # backend "s3" {
+  #   bucket = "projeto-eks-s3"
+  #   key    = "dev/terrafrorm.tfstate"
+  #   region = "us-east-1"
+  # }
 }

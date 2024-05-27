@@ -6,3 +6,4 @@ locals {
     Project      = "EKS"
   }
 }
+
